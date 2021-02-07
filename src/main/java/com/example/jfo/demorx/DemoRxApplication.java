@@ -11,8 +11,8 @@ public class DemoRxApplication {
 
     public static void main(String[] args) throws InterruptedException {
         SpringApplication.run(DemoRxApplication.class, args);
-//        InitialDemos.run();
-//        SimpleBackgroundComputation.run();
+        InitialDemos.run();
+        SimpleBackgroundComputation.run();
         FlowConcurrence.run();
     }
 
